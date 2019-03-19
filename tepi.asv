@@ -1,0 +1,6 @@
+I = imread('E:/Adi/pengolahancitra/CITRA\dedaunan.png');
+canny = edge (I,'canny');
+sobel = edge (I,'sobel');
+robert = edge (I,'robert');
+prewit = edge (I, 'prewit');
+imshow(
